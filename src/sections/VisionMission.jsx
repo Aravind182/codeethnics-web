@@ -40,7 +40,7 @@ const VisionMission = () => {
 
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-6 py-20">
-      <h2 className="text-white text-5xl md:text-6xl font-mono mb-12 border-b pb-3 border-white">
+      <h2 className="text-black text-5xl md:text-6xl font-mono mb-12 border-b pb-3 border-white">
         Our Vision & Mission
       </h2>
 
@@ -48,10 +48,10 @@ const VisionMission = () => {
         {/* Vision */}
         <div
           ref={visionRef}
-          className="bg-white/10 border border-white/20 backdrop-blur-sm p-8 rounded-xl w-full text-white font-mono"
+          className="bg-black border border-black backdrop-blur-sm p-8 rounded-xl w-full text-white font-mono"
         >
           <h3 className="text-3xl mb-4 border-b pb-2">🌟 Vision</h3>
-          <p className="text-white/80 text-lg leading-relaxed">
+          <p className="text-black text-lg leading-relaxed">
             To empower learners and institutions with a transparent, fair, and
             practice-focused coding platform that nurtures genuine skill
             development, ensures academic integrity, and prepares coders for
@@ -62,10 +62,10 @@ const VisionMission = () => {
         {/* Mission */}
         <div
           ref={missionRef}
-          className="bg-white/10 border border-white/20 backdrop-blur-sm p-8 rounded-xl w-full text-white font-mono"
+          className="bg-white/10 border border-white/20 backdrop-blur-sm p-8 rounded-xl w-full text-black font-mono"
         >
           <h3 className="text-3xl mb-4 border-b pb-2">🚀 Mission</h3>
-          <ul className="list-disc list-inside space-y-4 text-white/80 text-lg leading-relaxed">
+          <ul className="list-disc list-inside space-y-4 text-black text-lg leading-relaxed">
             <li>
               <strong>Promote Ethical Coding:</strong> Build a culture of
               originality by preventing plagiarism and malpractice.
