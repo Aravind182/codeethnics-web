@@ -48,10 +48,10 @@ const VisionMission = () => {
         {/* Vision */}
         <div
           ref={visionRef}
-          className="bg-black border border-black backdrop-blur-sm p-8 rounded-xl w-full text-white font-mono"
+          className="bg-black/50 border border-black backdrop-blur-sm p-8 rounded-xl w-full text-white font-mono"
         >
           <h3 className="text-3xl mb-4 border-b pb-2">🌟 Vision</h3>
-          <p className="text-black text-lg leading-relaxed">
+          <p className="text-white text-lg leading-relaxed z-20">
             To empower learners and institutions with a transparent, fair, and
             practice-focused coding platform that nurtures genuine skill
             development, ensures academic integrity, and prepares coders for
@@ -62,10 +62,10 @@ const VisionMission = () => {
         {/* Mission */}
         <div
           ref={missionRef}
-          className="bg-white/10 border border-white/20 backdrop-blur-sm p-8 rounded-xl w-full text-black font-mono"
+          className="bg-black/50 border border-white/20 backdrop-blur-sm p-8 rounded-xl w-full text-white font-mono"
         >
           <h3 className="text-3xl mb-4 border-b pb-2">🚀 Mission</h3>
-          <ul className="list-disc list-inside space-y-4 text-black text-lg leading-relaxed">
+          <ul className="list-disc list-inside space-y-4 text-white text-lg leading-relaxed">
             <li>
               <strong>Promote Ethical Coding:</strong> Build a culture of
               originality by preventing plagiarism and malpractice.

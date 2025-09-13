@@ -7,7 +7,7 @@ import FutureUpdates from "./sections/FutureUpdates";
 import ComparisonTable from "./sections/ComparisonTable";
 const App = () => {
   return (
-    <div className="App  bg-white>
+    <div className="App  bg-white">
       <Hero />
       {/* Other sections will come below here... */}
        <VisionMission/>

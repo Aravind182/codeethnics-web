@@ -33,7 +33,48 @@ const futureUpdates = [
   icon: '❓',
   title: 'MCQ Challenges',
   desc: 'Sharpen your skills with daily multiple-choice questions and track your progress.'
+},
+{
+  icon: '🧭',
+  title: 'Guided Learning Mode',
+  desc: 'Learn step-by-step with structured guidance, hints, and explanations from mentors.'
+},
+{
+  icon: '📘',
+  title: 'Learning Mode with Feedback',
+  desc: 'Get instant feedback on your code and improve continuously through personalized tips.'
+},
+{
+  icon: '🎓',
+  title: 'Placement & Campus Integration',
+  desc: 'Connect with companies, prepare for interviews, and integrate with campus hiring drives.'
+},
+{
+  icon: '📊',
+  title: 'Skill Gap Analysis',
+  desc: 'Identify strengths and weaknesses with detailed analytics to close your learning gaps.'
+},
+{
+  icon: '👩‍🏫',
+  title: 'Interactive Teaching',
+  desc: 'Experience engaging sessions with interactive teaching methods and Q&A discussions.'
+},
+{
+  icon: '⌨️',
+  title: 'Staff Live Typing Monitoring',
+  desc: 'Instructors can monitor students’ typing and coding progress in real-time.'
+},
+{
+  icon: '🖥️',
+  title: 'Screen Sharing',
+  desc: 'Share your screen with mentors or peers for instant guidance and collaboration.'
+},
+{
+  icon: '🐞',
+  title: 'Debugging Support',
+  desc: 'Fix errors faster with integrated debugging tools and real-time mentor assistance.'
 }
+
 ];
 
 const FutureUpdates = () => {
@@ -73,7 +114,7 @@ const FutureUpdates = () => {
             >
               <div className="text-4xl mb-4">{feature.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-base text-gray-300">{feature.desc}</p>
+              <p className="text-base text-black">{feature.desc}</p>
             </div>
           ))}
         </div>

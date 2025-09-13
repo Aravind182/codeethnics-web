@@ -79,45 +79,49 @@ const ComparisonTable  = () => {
           ref={tableRef}
           className=""
         >
-          <table className="min-w-full text-center border-separate border-spacing-2 md:border-spacing-4">
-            <thead>
-              <tr>
-                <th className="p-4 text-left font-bold text-lg text-black">
-                  Feature / Focus Area
-                </th>
-                {logos.map((logo, idx) => (
-                  <th key={idx} className="p-4">
-                    <img
-                      src={logo.src}
-                      alt={logo.alt}
-                      className="h-16 mx-auto object-contain rounded-full shadow-lg"
-                    />
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {comparisonData.map((row, idx) => (
-                <tr key={idx}>
-                  <td className="p-4 text-left bg-[#13172c] font-2xl font-mono text-white rounded-lg shadow-md hover:bg-cyan-500/20 transition-colors">
-                    {row.feature}
-                  </td>
-                  <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
-                    {row.CodeEthics}
-                  </td>
-                  <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
-                    {row.SkillRack}
-                  </td>
-                  <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
-                    {row.neoPAT}
-                  </td>
-                  <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
-                    {row.CodeTantra}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+       <table className="min-w-full text-center border-separate border-spacing-2 md:border-spacing-4">
+  <thead>
+    <tr>
+      <th className="p-4 text-left font-bold text-lg text-black sticky top-0 bg-white z-20 shadow-md">
+        Feature / Focus Area
+      </th>
+      {logos.map((logo, idx) => (
+        <th
+          key={idx}
+          className="p-4 sticky top-0 bg-white z-20 shadow-md"
+        >
+          <img
+            src={logo.src}
+            alt={logo.alt}
+            className="h-16 mx-auto object-contain rounded-full shadow-lg"
+          />
+        </th>
+      ))}
+    </tr>
+  </thead>
+  <tbody>
+    {comparisonData.map((row, idx) => (
+      <tr key={idx}>
+        <td className="p-4 text-left bg-[#13172c] font-2xl font-mono text-white rounded-lg shadow-md hover:bg-cyan-500/20 transition-colors">
+          {row.feature}
+        </td>
+        <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
+          {row.CodeEthics}
+        </td>
+        <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
+          {row.SkillRack}
+        </td>
+        <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
+          {row.neoPAT}
+        </td>
+        <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">
+          {row.CodeTantra}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
         </div>
       </div>
     </section>

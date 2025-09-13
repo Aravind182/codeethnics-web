@@ -104,7 +104,7 @@ const Features = () => {
         >
           <div className="text-5xl mb-4">{feature.icon}</div>
           <h3 className="text-2xl font-semibold mb-2">{feature.title}</h3>
-          <p className="text-lg text-gray-300">{feature.desc}</p>
+          <p className="text-lg text-black">{feature.desc}</p>
         </div>
       ))}
     </div>
