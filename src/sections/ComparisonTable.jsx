@@ -82,7 +82,7 @@ const ComparisonTable  = () => {
           <table className="min-w-full text-center border-separate border-spacing-2 md:border-spacing-4">
             <thead>
               <tr>
-                <th className="p-4 text-left font-bold text-lg text-white/90">
+                <th className="p-4 text-left font-bold text-lg text-black">
                   Feature / Focus Area
                 </th>
                 {logos.map((logo, idx) => (
