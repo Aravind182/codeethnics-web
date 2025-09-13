@@ -7,7 +7,7 @@ import FutureUpdates from "./sections/FutureUpdates";
 import ComparisonTable from "./sections/ComparisonTable";
 const App = () => {
   return (
-    <div className="App  bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]">
+    <div className="App  bg-white>
       <Hero />
       {/* Other sections will come below here... */}
        <VisionMission/>
