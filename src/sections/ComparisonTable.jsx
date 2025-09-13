@@ -2,7 +2,8 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ce from '../assets/ce.png'
+import ce from "../assets/code_ethnics.png";
+
 gsap.registerPlugin(ScrollTrigger);
 
  const comparisonData = [
@@ -102,7 +103,7 @@ const ComparisonTable  = () => {
   <tbody>
     {comparisonData.map((row, idx) => (
       <tr key={idx}>
-        <td className="p-4 text-left bg-[#13172c] font-2xl font-mono text-white rounded-lg shadow-md hover:bg-cyan-500/20 transition-colors">
+        <td className="p-4 text-left bg-[#13172c] font-2xl font-mono text-white rounded-lg shadow-md   ">
           {row.feature}
         </td>
         <td className="p-4 bg-[#13172c] rounded-lg shadow-md text-green-400 font-bold">

@@ -65,6 +65,8 @@ const features = [
     title: 'Daily Coding Challenges',
     desc: 'New problems every day to sharpen your coding skills.'
   }
+
+
 ];
 
 

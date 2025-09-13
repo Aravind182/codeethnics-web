@@ -67,12 +67,17 @@ const futureUpdates = [
 {
   icon: '🖥️',
   title: 'Screen Sharing',
-  desc: 'Share your screen with mentors or peers for instant guidance and collaboration.'
+  desc: 'Enables counsellors to view the student’s screen in real time during tests.'
 },
 {
   icon: '🐞',
   title: 'Debugging Support',
   desc: 'Fix errors faster with integrated debugging tools and real-time mentor assistance.'
+},
+{
+  icon:'👨🏻‍💻👨🏻‍💻',
+  title:'Pair Coding',
+  desc:'Allows students to code together in real time for collaboration and team hackathons.'
 }
 
 ];
