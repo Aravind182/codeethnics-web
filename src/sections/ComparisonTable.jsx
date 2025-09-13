@@ -6,13 +6,13 @@ import ce from '../assets/ce.png'
 gsap.registerPlugin(ScrollTrigger);
 
  const comparisonData = [
-  { feature: 'Practice & Learning (Guided + Structured)', CodeEthics: '✅', SkillRack: '✅ (basic)', neoPAT: '❌', CodeTantra: '✅ (teaching)' },
+  { feature: 'Practice & Learning (Guided + Structured)', CodeEthics: '✅', SkillRack: '✅ (basic)', neoPAT: '✅', CodeTantra: '✅ (teaching)' },
   { feature: 'Learning Mode (Practice + Feedback)', CodeEthics: '✅', SkillRack: '✅', neoPAT: '✅', CodeTantra: '✅' },
   { feature: 'Proctored Test Mode (Exam Security)', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '✅' },
   { feature: 'Granular Admin Controls (time limit, recursion depth, blacklist)', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅ (basic)', CodeTantra: '✅' },
   { feature: 'Multi-Level Institution Support (Universities → Departments → Councils)', CodeEthics: '✅', SkillRack: '✅', neoPAT: '✅', CodeTantra: '✅' },
   { feature: 'Email Verification + Batch Code Tracking', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '❌' },
-  { feature: 'Reports on Time & Space Complexity', CodeEthics: '✅', SkillRack: '❌', neoPAT: '❌', CodeTantra: '❌' },
+  { feature: 'Reports on Time & Space Complexity', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '✅' },
   { feature: 'Instant Email Reporting (Student + Counsellor after test)', CodeEthics: '✅', SkillRack: '❌', neoPAT: '❌', CodeTantra: '❌' },
   { feature: 'Placement / Campus Integration', CodeEthics: '✅', SkillRack: '✅', neoPAT: '✅', CodeTantra: '✅' },
   { feature: 'Skill-Gap Analysis', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '❌' },
@@ -26,7 +26,7 @@ gsap.registerPlugin(ScrollTrigger);
   { feature: 'Aptitude (Quantitative, Logical, Verbal tests)', CodeEthics: '✅', SkillRack: '✅', neoPAT: '✅', CodeTantra: '❌' },
   { feature: 'Typing Pattern Analysis', CodeEthics: '✅', SkillRack: '✅', neoPAT: '✅', CodeTantra: '✅' },
   { feature: 'Keyboard & Mouse Tracking', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '✅' },
-  { feature: 'Code Fingerprinting & Similarity Graphs', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '❌' },
+  
   { feature: 'Secret / Behavioral Questions', CodeEthics: '✅', SkillRack: '❌', neoPAT: '❌', CodeTantra: '❌' },
   { feature: 'Code-Tattle Style Auto Evaluation', CodeEthics: '✅', SkillRack: '❌', neoPAT: '❌', CodeTantra: '❌' },
   { feature: 'Parent–Child Code Linkage', CodeEthics: '✅', SkillRack: '✅', neoPAT: '✅', CodeTantra: '✅' },
@@ -34,7 +34,7 @@ gsap.registerPlugin(ScrollTrigger);
   { feature: 'Time Tracking Per Question', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '✅' },
   { feature: 'Network Stability Logs', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '❌' },
   { feature: 'MCQ Challenges', CodeEthics: '✅', SkillRack: '✅', neoPAT: '✅', CodeTantra: '✅' },
-  { feature: 'Screen Sharing (Real-time during Tests)', CodeEthics: '✅', SkillRack: '❌', neoPAT: '❌', CodeTantra: '❌' },
+  { feature: 'Screen Sharing (Real-time during Tests)', CodeEthics: '✅', SkillRack: '❌', neoPAT: '✅', CodeTantra: '❌' },
   { feature: 'Debugging (Fixing Broken Code Snippets)', CodeEthics: '✅', SkillRack: '✅', neoPAT: '❌', CodeTantra: '❌' }
 ];
 
