@@ -27,7 +27,7 @@ const features = [
   },
   {
     icon: '🏛️',
-    title: 'University Dashboard',
+    title: 'College Dashboard',
     desc: 'View performance analytics of students department-wise and university-wise.'
   },
   {
