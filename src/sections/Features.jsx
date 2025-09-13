@@ -48,7 +48,7 @@ const features = [
   {
     icon: '🏆',
     title: 'Hackathons & Rewards',
-    desc: 'Participate and earn MCA rewards.'
+    desc: 'Participate and earn MVC rewards.'
   },
   {
     icon: '📘',
