@@ -83,7 +83,7 @@ const futureUpdates = [
   {
     icon:'🔌',
     title:'Arduino & Raspberry Pi Coding',
-    desc:''Practice hands-on coding challenges and enhance your IoT development skills every day.'
+    desc:'Practice hands-on coding challenges and enhance your IoT development skills every day.'
   }
   
   
