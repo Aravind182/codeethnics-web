@@ -79,6 +79,14 @@ const futureUpdates = [
   title:'Pair Coding',
   desc:'Allows students to code together in real time for collaboration and team hackathons.'
 }
+  ,
+  {
+    icon:'🔌',
+    title:'Arduino & Raspberry Pi Coding',
+    desc:''Practice hands-on coding challenges and enhance your IoT development skills every day.'
+  }
+  
+  
 
 ];
 
